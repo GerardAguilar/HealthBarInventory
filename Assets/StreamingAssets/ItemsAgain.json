@@ -1,0 +1,45 @@
+[
+{
+	"id": 0,
+	"title":"Steel Gloves",
+	"value": 6,
+	"stats":{
+		"power": 1,
+		"defence": 4,
+		"vitality": 2
+	},
+	"description": "Gloves made from steel. Yeah.",
+	"stackable": false,
+	"rarity": 2,
+	"slug": "barGreen_horizontalLeft.png"
+},
+{
+	"id": 1,
+	"title":"The Great Stick",
+	"value": 543,
+	"stats":{
+		"power": 1,
+		"defence": 4,
+		"vitality": 2
+	},
+	"description": "It's a stick that's pretty great.",
+	"stackable": false,
+	"rarity": 2,
+	"slug": "iconCircle_brown.png"
+},
+{
+	"id": 2,
+	"title":"Cursor Hand",
+	"value": 0,
+	"stats":{
+		"power": 1,
+		"defence": 4,
+		"vitality": 2
+	},
+	"description": "Click it.",
+	"stackable": false,
+	"rarity": 2,
+	"slug": "cursorSword_gold.png"
+}
+
+]
