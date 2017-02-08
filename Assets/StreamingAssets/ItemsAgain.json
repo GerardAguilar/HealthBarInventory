@@ -9,7 +9,7 @@
 		"vitality": 2
 	},
 	"description": "Gloves made from steel. Yeah.",
-	"stackable": false,
+	"stackable": true,
 	"rarity": 2,
 	"slug": "barGreen_horizontalLeft.png"
 },
@@ -23,7 +23,7 @@
 		"vitality": 2
 	},
 	"description": "It's a stick that's pretty great.",
-	"stackable": false,
+	"stackable": true,
 	"rarity": 2,
 	"slug": "iconCircle_brown.png"
 },
@@ -37,7 +37,7 @@
 		"vitality": 2
 	},
 	"description": "Click it.",
-	"stackable": false,
+	"stackable": true,
 	"rarity": 2,
 	"slug": "cursorSword_gold.png"
 }

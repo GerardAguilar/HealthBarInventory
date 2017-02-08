@@ -13,9 +13,11 @@ public class PlayerScript : MonoBehaviour {
     [SerializeField]
     private StatScript shield;
 
+    private GameObject inventoryPanel;
+
 	// Use this for initialization
 	void Start () {
-		
+        inventoryPanel = GameObject.Find("InventoryPanel");
 	}
 
     void Awake() {
@@ -49,6 +51,9 @@ public class PlayerScript : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.X))
         {
             shield.CurrentVal += 10;
+        }
+        if (Input.GetKeyDown(KeyCode.I)) {
+            inventoryPanel.SetActive(!inventoryPanel.activeSelf);
         }
     }
 }
